@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zapier Operations Automation Portfolio | Jhun Bart Macirin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-container">
+            <a class="brand" href="#top" aria-label="Portfolio home">
+                
+                <span>
+                    <strong>Jhun Bart Macirin</strong>
+                    <small>Operations VA / Automation Support</small>
+                </span>
+            </a>
+
+            <button class="menu-btn" id="menuBtn" type="button" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+                <a href="#about">About</a>
+                <a href="#projects">Projects & Standard Operating Procedures</a>
+                <a href="../jbmacs.html">Main</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="top">
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <p class="eyebrow">Operations Automation Portfolio</p>
+                    <h1>Workflow automation that keeps client work organized, documented, and easy to follow.</h1>
+                    <p>
+                        A professional portfolio of sample automations for inquiries, task requests, and client onboarding.
+                        Each project includes the workflow, SOP, expected result, and screenshots in one place.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn primary">View Projects</a>
+                        <a href="#about" class="btn secondary">About Me</a>
+                    </div>
+                </div>
+
+                <aside class="hero-tools-panel" aria-label="Tools I am confident in using">
+                    <div class="hero-tools-copy">
+                        <p class="section-label">Tools</p>
+                        
+                    </div>
+
+                    <div class="floating-tools-grid">
+                        <div class="hero-tool float-one">
+                            <span class="tool-logo zapier-logo" aria-hidden="true">Z</span>
+                            <strong>Zapier</strong>
+                        </div>
+                        <div class="hero-tool float-two">
+                            <span class="tool-logo task-logo" aria-hidden="true">
+                                <span></span>
+                                <span></span>
+                            </span>
+                            <strong>Trello</strong>
+                        </div>
+                        <div class="hero-tool float-three">
+                            <span class="tool-logo monday-logo" aria-hidden="true">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </span>
+                            <strong>Monday</strong>
+                        </div>
+                        <div class="hero-tool float-two">
+                            <span class="tool-logo agencyzoom-logo" aria-hidden="true">AZ</span>
+                            <strong>AgencyZoom</strong>
+                        </div>
+                        <div class="hero-tool float-three">
+                            <span class="tool-logo google-logo" aria-hidden="true">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </span>
+                            <strong>Google Suite</strong>
+                        </div>
+                        <div class="hero-tool float-one">
+                            <span class="tool-logo microsoft-logo" aria-hidden="true">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </span>
+                            <strong>Microsoft Suite</strong>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container split-section">
+                <div class="section-heading left">
+                    <p class="section-label">About Me</p>
+                    <h2>Operations support with practical automation skills</h2>
+                </div>
+                <div class="content-panel">
+                    <p>
+                        I am an admin and operations support professional with experience in documentation,
+                        workflow tracking, reporting, task monitoring, and automation. I created this portfolio
+                        to demonstrate how I can reduce manual work, organize business data, improve follow-ups,
+                        and create clear SOPs for repeatable processes.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+       
+
+        <section id="projects" class="section projects-section">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="section-label">Projects & Standard Operating Procedures</p>
+                    <h2>Automation projects with matching SOPs and screenshots</h2>
+                    <p class="section-intro">Select a project to view the automation workflow, SOP procedure, troubleshooting notes, and related screenshots.</p>
+                </div>
+
+                <div class="project-layout">
+                    <div class="project-list" aria-label="Project selector">
+                        <button class="project-card active" type="button" data-project="client-inquiry">
+                            <span class="project-number">01</span>
+                            <span>
+                                <strong>Client Inquiry Automation</strong>
+                                <small>Form intake, tracker entry, email confirmation, admin alert</small>
+                            </span>
+                        </button>
+
+                        <button class="project-card" type="button" data-project="task-request">
+                            <span class="project-number">02</span>
+                            <span>
+                                <strong>Task Request Automation</strong>
+                                <small>Task form, tracker entry, task card, assigned-person notification</small>
+                            </span>
+                        </button>
+
+                        <button class="project-card" type="button" data-project="client-onboarding">
+                            <span class="project-number">03</span>
+                            <span>
+                                <strong>Client Onboarding Automation</strong>
+                                <small>Onboarding form, client tracker, Drive folder, welcome email</small>
+                            </span>
+                        </button>
+                    </div>
+
+                    <div class="project-details">
+                        <article class="project-detail active" id="client-inquiry" data-project-panel="client-inquiry">
+                            <div class="detail-header">
+                                <p class="section-label">Project 01</p>
+                                <h3>Client Inquiry Automation</h3>
+                                <p>Prevents missed inquiries by capturing form submissions, logging the data, and sending timely confirmations.</p>
+                            </div>
+
+                            <div class="detail-grid">
+                                <section class="detail-block">
+                                    <h4>Automation Project</h4>
+                                    <p><strong>Problem:</strong> Client inquiries may be missed or delayed when manually checked from forms or emails.</p>
+                                    <p><strong>Tools:</strong> Google Forms, Google Sheets, Gmail, Zapier</p>
+                                    <div class="workflow">
+                                        <span>Form Submission</span>
+                                        <span>Zapier Trigger</span>
+                                        <span>Google Sheets Tracker</span>
+                                        <span>Client Email</span>
+                                        <span>Admin Notification</span>
+                                    </div>
+                                    <p><strong>Result:</strong> Reduces manual data entry, improves response time, and keeps all inquiries organized in one tracker.</p>
+                                </section>
+
+                                <section class="detail-block sop-block">
+                                    <button class="sop-toggle" type="button" aria-expanded="true">
+                                        <span>SOP: Client Inquiry Automation</span>
+                                        <span class="toggle-icon">-</span>
+                                    </button>
+                                    <div class="sop-body open">
+                                        <h5>Purpose</h5>
+                                        <p>To automatically collect client inquiries, record them in a tracker, send confirmation emails, and notify the admin team.</p>
+                                        <h5>Procedure</h5>
+                                        <ol>
+                                            <li>Client submits the inquiry form.</li>
+                                            <li>Zapier captures the new form response.</li>
+                                            <li>Zapier adds the inquiry details to Google Sheets.</li>
+                                            <li>Zapier sends a confirmation email to the client.</li>
+                                            <li>Zapier sends an internal notification to the admin/team.</li>
+                                            <li>Admin checks the tracker and follows up with the client.</li>
+                                            <li>Admin updates the status column in the tracker.</li>
+                                        </ol>
+                                        <h5>Troubleshooting</h5>
+                                        <ul>
+                                            <li>Check Zapier task history.</li>
+                                            <li>Confirm that Google Forms and Google Sheets are connected.</li>
+                                            <li>Reconnect Gmail if email sending fails.</li>
+                                            <li>Submit a new test response and retest each Zap step.</li>
+                                        </ul>
+                                    </div>
+                                </section>
+                            </div>
+
+                            <section class="screenshots-row" aria-label="Client inquiry screenshots">
+                                <figure>
+                                    <img src="images/proj 1.png" alt="Client inquiry automation screenshot placeholder" />
+                                    <figcaption>Zap setup / form intake</figcaption>
+                                </figure>
+                                <figure>
+                                    <img src="images/proj 1.2.png" alt="Client inquiry tracker screenshot placeholder" />
+                                    <figcaption>Inquiry tracker</figcaption>
+                                </figure>
+                                <figure>
+                                    <img src="images/proj 1.3.png" alt="Client inquiry email screenshot placeholder" />
+                                    <figcaption>Email confirmation</figcaption>
+                                </figure>
+                            </section>
+                        </article>
+
+                        <article class="project-detail" id="task-request" data-project-panel="task-request">
+                            <div class="detail-header">
+                                <p class="section-label">Project 02</p>
+                                <h3>Task Request Automation</h3>
+                                <p>Turns incoming task requests into trackable assignments with clear notifications and status visibility.</p>
+                            </div>
+
+                            <div class="detail-grid">
+                                <section class="detail-block">
+                                    <h4>Automation Project</h4>
+                                    <p><strong>Problem:</strong> Task requests from different people can be forgotten or not assigned properly.</p>
+                                    <p><strong>Tools:</strong> Google Forms, Google Sheets, Trello / ClickUp / Asana, Gmail, Zapier</p>
+                                    <div class="workflow">
+                                        <span>Task Form</span>
+                                        <span>Zapier Trigger</span>
+                                        <span>Tracker Entry</span>
+                                        <span>Task Card</span>
+                                        <span>Email Notification</span>
+                                    </div>
+                                    <p><strong>Result:</strong> Helps prevent missed tasks by automatically converting task requests into trackable action items.</p>
+                                </section>
+
+                                <section class="detail-block sop-block">
+                                    <button class="sop-toggle" type="button" aria-expanded="true">
+                                        <span>SOP: Task Request Automation</span>
+                                        <span class="toggle-icon">-</span>
+                                    </button>
+                                    <div class="sop-body open">
+                                        <h5>Purpose</h5>
+                                        <p>To automatically record task requests, create a task card, and notify the assigned person.</p>
+                                        <h5>Procedure</h5>
+                                        <ol>
+                                            <li>Requester submits the task request form.</li>
+                                            <li>Zapier records the task in the tracker.</li>
+                                            <li>Zapier creates a task card in the project management tool.</li>
+                                            <li>Zapier sends an email notification to the assigned person.</li>
+                                            <li>Assigned person updates the task status.</li>
+                                        </ol>
+                                        <h5>Troubleshooting</h5>
+                                        <ul>
+                                            <li>Check whether the project management tool connection is active.</li>
+                                            <li>Confirm the assignee email is valid.</li>
+                                            <li>Retest the Zap using a sample task request.</li>
+                                        </ul>
+                                    </div>
+                                </section>
+                            </div>
+
+                            <section class="screenshots-row" aria-label="Task request screenshots">
+                                <figure>
+                                    <img src="images/proj 2.1.png" alt="Task request automation screenshot placeholder" />
+                                    <figcaption>Task form</figcaption>
+                                </figure>
+                                <figure>
+                                    <img src="images/proj 2.2.png" alt="Task tracker screenshot placeholder" />
+                                    <figcaption>Task tracker</figcaption>
+                                </figure>
+                                <figure>
+                                    <img src="images/proj 2.3.png" alt="Task card screenshot placeholder" />
+                                    <figcaption>Task card</figcaption>
+                                </figure>
+                            </section>
+                        </article>
+
+                        <article class="project-detail" id="client-onboarding" data-project-panel="client-onboarding">
+                            <div class="detail-header">
+                                <p class="section-label">Project 03</p>
+                                <h3>Client Onboarding Automation</h3>
+                                <p>Standardizes onboarding by creating records, folders, welcome messages, and team notifications automatically.</p>
+                            </div>
+
+                            <div class="detail-grid">
+                                <section class="detail-block">
+                                    <h4>Automation Project</h4>
+                                    <p><strong>Problem:</strong> New client onboarding requires repeated manual steps such as creating folders, records, and welcome emails.</p>
+                                    <p><strong>Tools:</strong> Google Forms, Google Sheets, Google Drive, Gmail, Zapier</p>
+                                    <div class="workflow">
+                                        <span>Onboarding Form</span>
+                                        <span>Zapier Trigger</span>
+                                        <span>Client Tracker</span>
+                                        <span>Drive Folder</span>
+                                        <span>Welcome Email</span>
+                                    </div>
+                                    <p><strong>Result:</strong> Improves onboarding organization by automatically creating client records, folders, and welcome emails.</p>
+                                </section>
+
+                                <section class="detail-block sop-block">
+                                    <button class="sop-toggle" type="button" aria-expanded="true">
+                                        <span>SOP: Client Onboarding Automation</span>
+                                        <span class="toggle-icon">-</span>
+                                    </button>
+                                    <div class="sop-body open">
+                                        <h5>Purpose</h5>
+                                        <p>To organize new client onboarding by creating records, folders, and welcome emails automatically.</p>
+                                        <h5>Procedure</h5>
+                                        <ol>
+                                            <li>Client submits onboarding form.</li>
+                                            <li>Zapier adds the client details to the onboarding tracker.</li>
+                                            <li>Zapier creates a Google Drive folder.</li>
+                                            <li>Zapier sends a welcome email.</li>
+                                            <li>Zapier notifies the admin/team.</li>
+                                            <li>Admin reviews the onboarding tracker and prepares next steps.</li>
+                                        </ol>
+                                        <h5>Troubleshooting</h5>
+                                        <ul>
+                                            <li>Confirm the Google Drive destination folder is available.</li>
+                                            <li>Check the tracker columns used by the Zap.</li>
+                                            <li>Reconnect Gmail or Google Drive if a step fails.</li>
+                                        </ul>
+                                    </div>
+                                </section>
+                            </div>
+
+                            <section class="screenshots-row" aria-label="Client onboarding screenshots">
+                                <figure>
+                                    <img src="images/Proj 3.1.1.png" alt="Client onboarding automation screenshot placeholder" />
+                                    <figcaption>Zap Set-up</figcaption>
+                                </figure>
+                                <figure>
+                                    <img src="images/Proj 3.1.png" alt="Client folder screenshot placeholder" />
+                                    <figcaption>Zap set-up</figcaption>
+                                </figure>
+                                <figure>
+                                    <img src="images/Proj 3.2.png" alt="Welcome email screenshot placeholder" />
+                                    <figcaption>Welcome email</figcaption>
+                                </figure>
+                            </section>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact-section">
+            <div class="container contact-panel">
+                <div>
+                    <p class="section-label">Availability</p>
+                    <h2>Ready to support organized, documented operations workflows.</h2>
+                </div>
+                <p>Prepared by Jhun Bart Macirin | Executive Assistant / Operations VA</p>
+            </div>
+        </section>
+    </main>
+
+    <div class="image-lightbox" id="imageLightbox" aria-hidden="true">
+        <button class="lightbox-close" id="lightboxClose" type="button" aria-label="Close image preview">Close</button>
+        <img id="lightboxImage" src="" alt="" />
+        <p id="lightboxCaption"></p>
+    </div>
+
+    <button class="back-to-top" id="backToTop" type="button" aria-label="Back to top">Top</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
